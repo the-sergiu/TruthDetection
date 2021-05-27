@@ -1,0 +1,54 @@
+TAG,POS,MORPHOLOGY,DESCRIPTION
+$,SYM,,"symbol, currency"
+``,PUNCT,PunctType=quot PunctSide=ini,opening quotation mark
+'',PUNCT,PunctType=quot PunctSide=fin,closing quotation mark
+",",PUNCT,PunctType=comm,"punctuation mark, comma"
+-LRB-,PUNCT,PunctType=brck PunctSide=ini,left round bracket
+-RRB-,PUNCT,PunctType=brck PunctSide=fin,right round bracket
+.,PUNCT,PunctType=peri,"punctuation mark, sentence closer"
+:,PUNCT,,"punctuation mark, colon or ellipsis"
+ADD,X,,email
+AFX,ADJ,Hyph=yes,affix
+CC,CCONJ,ConjType=comp,"conjunction, coordinating"
+CD,NUM,NumType=card,cardinal number
+DT,DET,,determiner
+EX,PRON,AdvType=ex,existential there
+FW,X,Foreign=yes,foreign word
+GW,X,,additional word in multi-word expression
+HYPH,PUNCT,PunctType=dash,"punctuation mark, hyphen"
+IN,ADP,,"conjunction, subordinating or preposition"
+JJ,ADJ,Degree=pos,adjective
+JJR,ADJ,Degree=comp,"adjective, comparative"
+JJS,ADJ,Degree=sup,"adjective, superlative"
+LS,X,NumType=ord,list item marker
+MD,VERB,VerbType=mod,"verb, modal auxiliary"
+NFP,PUNCT,,superfluous punctuation
+NIL,X,,missing tag
+NN,NOUN,Number=sing,"noun, singular or mass"
+NNP,PROPN,NounType=prop Number=sing,"noun, proper singular"
+NNPS,PROPN,NounType=prop Number=plur,"noun, proper plural"
+NNS,NOUN,Number=plur,"noun, plural"
+PDT,DET,,predeterminer
+POS,PART,Poss=yes,possessive ending
+PRP,PRON,PronType=prs,"pronoun, personal"
+PRP$,DET,PronType=prs Poss=yes,"pronoun, possessive"
+RB,ADV,Degree=pos,adverb
+RBR,ADV,Degree=comp,"adverb, comparative"
+RBS,ADV,Degree=sup,"adverb, superlative"
+RP,ADP,,"adverb, particle"
+SP,SPACE,,space
+SYM,SYM,,symbol
+TO,PART,PartType=inf VerbForm=inf,"infinitival ""to"""
+UH,INTJ,,interjection
+VB,VERB,VerbForm=inf,"verb, base form"
+VBD,VERB,VerbForm=fin Tense=past,"verb, past tense"
+VBG,VERB,VerbForm=part Tense=pres Aspect=prog,"verb, gerund or present participle"
+VBN,VERB,VerbForm=part Tense=past Aspect=perf,"verb, past participle"
+VBP,VERB,VerbForm=fin Tense=pres,"verb, non-3rd person singular present"
+VBZ,VERB,VerbForm=fin Tense=pres Number=sing Person=three,"verb, 3rd person singular present"
+WDT,DET,,wh-determiner
+WP,PRON,,"wh-pronoun, personal"
+WP$,DET,Poss=yes,"wh-pronoun, possessive"
+WRB,ADV,,wh-adverb
+XX,X,,unknown
+_SP,SPACE,,

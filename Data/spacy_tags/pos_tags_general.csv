@@ -1,0 +1,20 @@
+POS,DESCRIPTION,EXAMPLES
+ADJ,adjective,"big, old, green, incomprehensible, first"
+ADP,adposition,"in, to, during"
+ADV,adverb,"very, tomorrow, down, where, there"
+AUX,auxiliary,"is, has (done), will (do), should (do)"
+CONJ,conjunction,"and, or, but"
+CCONJ,coordinating conjunction,"and, or, but"
+DET,determiner,"a, an, the"
+INTJ,interjection,"psst, ouch, bravo, hello"
+NOUN,noun,"girl, cat, tree, air, beauty"
+NUM,numeral,"1, 2017, one, seventy-seven, IV, MMXIV"
+PART,particle,"s, not,"
+PRON,pronoun,"I, you, he, she, myself, themselves, somebody"
+PROPN,proper noun,"Mary, John, London, NATO, HBO"
+PUNCT,punctuation,"., (, ), ?"
+SCONJ,subordinating conjunction,"if, while, that"
+SYM,symbol,"$, %, §, ©, +, ?, ×, ÷, =, :), ??"
+VERB,verb,"run, runs, running, eat, ate, eating"
+X,other,sfpksdpsxmsa
+SPACE,space,
