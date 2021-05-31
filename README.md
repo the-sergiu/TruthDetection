@@ -21,30 +21,30 @@ I experiment with various ML/AutoML/DL models and manage to correctly classify 2
 # Code description
 
 The code is split into stages of progression. Each folder contains notebooks for various tasks. The "Data" folder contains all generated data, alongside csv files with results.
-
+```
 📦1. Data Manipulation
  ┣ 📜1_a_PolitifactDataWebScraping.ipynb
  ┣ 📜1_b_PolitifactCreateNewVariants.ipynb
  ┣ 📜1_c_PolitifactCreateTrainTestsSplits.ipynb
  ┣ 📜1_d_PolitifactDataAugmentation.ipynb
  ┗ 📜1_e_Clean_Data_NER.ipynb
-
+```
  The "Data Manipulation" folder contains the website parsing notebooks, alongside the notebooks I used for cleaning the data and creating potential Train/Test splits. Also used to create multiple variants of the dataset.
-
+```
  📦2. Part of Speech Tagging & Named Entity Recognition
  ┣ 📜2_a_FeatureEngineering_POS_Stats.ipynb
  ┗ 📜2_b_AdvancedPOS_NER_SD_WC.ipynb
-
+```
  The "Part of Speech Tagging & Named Entity Recognition" contains the process of creating separate columns based on features found within the text. They are later used to create statistics based on Entities, Parts of Speech and Syntactic Dependencies.
-
+```
 📦3. Machine Learning  & AutoML
  ┣ 📜3_a_ML_LR_MNB_TFIDF.ipynb
  ┗ 📜3_b_AutoKeras_Truth_Detection_Text_Classification.ipynb
-
+```
  The Machine Learning aspect of the above folder attempts the classification of affirmations using Logistic Regression and Multinomial Naive Bayes models, with different word represenation models (Bag of Words, N-grams), with varying sentence normalizations (partial/full).
 
  The AutoML step leverages AutoKeras in an attempt to construct a text classification model architecture that best fits the need of the task, automatically, through various unsupervised trials.
-
+```
  📦4. Deep Learning
  ┣ 📂politifact_binarized_augmented
  ┃ ┣ 📂NotFunctionalYet
@@ -94,12 +94,12 @@ The code is split into stages of progression. Each folder contains notebooks for
  ┃ ┣ 📜Fine_Tuning_distilroberta_for_Truth_Classification.ipynb
  ┃ ┣ 📜Fine_Tuning_RoBERTa_for_Truth_Classification.ipynb
  ┃ ┗ 📜Fine_Tuning_RoBERTa_large_for_Truth_Classification.ipynb
-
+```
  The folder above contains a large number of trials created with the goal of obtaining as good of a result as possible. These notebooks were run using Google Colab. Each sub-folder is named after the Dataset it was trying to classify (one of the 3 variants).
-
+```
  📦5. Results and Vizualizations
  ┗ 📜5_a_Results_Vizualization.ipynb
-
+```
  The final folder contains the notebook where all results can be visualised. Sadly, the figures are not displayed in GitHub because of how Plotly functions.
 
 # How to setup the environment
