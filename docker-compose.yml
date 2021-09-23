@@ -4,5 +4,5 @@ services:
         ports:
           - "8888:8888"
           - "6006:6006"
-        command: jupyter notebook
+        command: cd src/; jupyter notebook
         
