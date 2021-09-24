@@ -116,6 +116,16 @@ The 2 ways of environment construction are:
 - Create conda env and install requirements using pip
 - Pull docker image (TODO)
 
+First, pull the repo.
+
+```
+# Using SSH
+git clone git@github.com:the-sergiu/TruthDetection.git
+
+# Make sure you have a SSH key-pair setup within Git
+
+```
+
 ## Old-fashioned way (conda env)
 
 ### Prerequisites
@@ -153,7 +163,35 @@ After installing all the packages (which will take a while), you should be able 
 
 Optionally, for cleaner use, you can change the paths to whatever you wish, but make sure that the data csv files can be read from within the notebook.
 
-If you wish different Conda comands, click [here](https://docs.conda.io/projects/conda/en/4.6.0/_downloads/52a95608c49671267e40c689e0bc00ca/conda-cheatsheet.pdf) for the cheat sheet.
+If you wish to use different Conda comands, click [here](https://docs.conda.io/projects/conda/en/4.6.0/_downloads/52a95608c49671267e40c689e0bc00ca/conda-cheatsheet.pdf) for the cheat sheet.
 
 
-## TODO - Docker image
+## Docker image
+
+### Prerequisites
+- Docker and the implicit setup.
+
+**1. Switch branch to "docker"**
+
+Just run:
+```
+git checkout docker
+
+```
+
+**2. Move into the "src" folder**
+```
+cd src
+```
+
+**3. Just build the docker image**
+```
+docker build -t td .
+```
+
+**4. Run the docker image**
+```
+docker run -dp 8888:8888 td
+```
+The docker image should run on the 8888 ports because that's the implicit port Jupyter Notebook usually runs on. That's also reflected in the Dockerfile.
+
