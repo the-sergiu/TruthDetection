@@ -179,11 +179,6 @@ git checkout docker
 
 ```
 
-**2. Move into the "src" folder**
-```
-cd src
-```
-
 **3. Just build the docker image**
 ```
 docker build -t td .
@@ -191,7 +186,7 @@ docker build -t td .
 
 **4. Run the docker image**
 ```
-docker run -dp 8888:8888 td
+docker run -p 8888:8888 td
 ```
 The docker image should run on the 8888 ports because that's the implicit port Jupyter Notebook usually runs on. That's also reflected in the Dockerfile.
 
