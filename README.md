@@ -8,7 +8,6 @@
 Just run:
 ```
 git checkout docker
-
 ```
 
 **2. Just build the docker image**
@@ -24,6 +23,7 @@ The docker image should run on the 8888 ports because that's the implicit port J
 
 
 **4. Access Jupyter Notebook Server**
+
 More info should be shown in the command line.
 You should find the server running at
 ```
