@@ -114,7 +114,7 @@ The notebooks mentioned above should run on Google Colab, but you will either:
 
 The 2 ways of environment construction are:
 - Create conda env and install requirements using pip
-- Pull docker image (TODO)
+- Pull docker image
 
 First, pull the repo.
 
