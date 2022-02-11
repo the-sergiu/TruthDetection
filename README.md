@@ -139,11 +139,12 @@ If the base env is activated, deactivate the base environment. (Should show a (b
 conda deactivate base
 ```
 
-**2. Create new Conda environment with the following command, using Python 3.7.**
+**2. Create new Conda environment using Python 3.7 and activate it.**
 ```
-conda create --name py37 python=3.7 
+conda create --name truth_detection python=3.7 
+### We wait for steps to complete ###
+conda activate truth_detection
 ```
-Environment will be named *py37* by default. Feel free to change the name.
 
 **3. Navigate to the repo folder within Conda Prompt**
 
