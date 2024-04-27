@@ -2,7 +2,6 @@
 
 #### Name: Sergiu-Ionut Craioveanu
 #### Institution: University POLITEHNICA of Bucharest, Faculty of Automatic Control and Computer Science
-#### Generation: 2017-2021
 
 This repo contains all the code and data behind my BSc Thesis, split into intuitively named folders. Most of the code is within interactive Python notebooks (ipynb), so it should be easy to follow. The thesis report is available under `Thesis.pdf`.
 
