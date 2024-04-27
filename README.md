@@ -15,7 +15,7 @@ This project sets out to answer two main questions:
 
 I devise my own case study based on [Politifact](https://www.politifact.com/truth-o-meter/) which is a site designed to verify political claims in USA, led by top people in multi-disciplinary fields. 
 I parse the site and create my own database, leverage SpaCy to uncover predominant features in affirmations based on veracity, and formulate a problem of Truth/Lie classification. 
-I experiment with various ML/AutoML/DL models and manage to correctly classify 2/3 of affirmations based on text alone.
+I experiment with various ML/AutoML/DL (BERT, RoBERTa, etc.) models and manage to correctly classify 2/3 of affirmations based on text alone.
 
 # Code description
 
